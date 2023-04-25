@@ -1,27 +1,40 @@
 # MOOC Challenge : Co2 calculator
 
-Theme : blblb
+**Theme :** 
 
-My project : blabla
+Climate change
 
-# How to run my program 
+**My project :** 
 
-
+Create an application using Java to address climate change. 
+It is an application that will calculate the number of co2 emitted on a trip and according to the mode of transport chosen.
 
 # Task
 
-1. main : why, and for what ?
-loop (controle boucle du jeu)
-gerer fin du program: demander a lutilisateur si il a fini
-recolter c02 emis par transport (velo, voiture, train, avion)
- 
-2. Recolter INPUT utilisateur :questionne lutilisateur: demande a lutilisateur de rentrer son trajet en km.
-type de vehicule.  
+- [x] Collect c02 emitted by transport (plane, train, car, bicycle)
+- [x] Create a main
+- [x] Create 2 class with 4 functions
+- [x] Create a loop function
+- [ ] 
+
+## Explain tasks
+
+1. **Class main :** 
+This class is the entry point for my program, and is the class name passed to the java interpreter command to run the application.
+Loop (repeat a block of code)
+Managing the end of the program : ask the user if he is finished. 
+2. **Collect INPUT users :**
+Asks the user to enter his journey in km.
+Type of vehicle.  
 What do I need ?
-println, variable, type de variable
-3. Affiche quantite de co2
-msg de prevention : exemple " a ce  trajet emet bcp de co2"
+println, variable, variable type 
+3. **Displays quantity of co2**
+And by mode of transport
+4. **Add emoji**
 
-Bonus : Afficher message bienvenue et text explicatif.
-Bonus : Proposer un mode de transport qui emet moins de co2 que celui choisi par utilisateur.
+### Bonus
+- [x] Display welcome message and explanatory text.
 
+- [ ] Display a prevention message :"This journey emits a lot of co2" or "This route emits little co2" or "This trip does not emits c02. Bravo!"
+
+- [ ] Propose a mode of transport that emits less co2 than the one chosen by the user.
